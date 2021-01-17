@@ -12,25 +12,28 @@
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
         android:text="Tap to listen your playlist"
-        android:textColor="#FFFFFF"
+        android:textColor="@color/colorWhite"
         app:layout_constraintBottom_toBottomOf="parent"
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toTopOf="parent"
-        app:layout_constraintVertical_bias="0.296" />
+        app:layout_constraintVertical_bias="0.165" />
 
     <Button
         android:id="@+id/btYoutube"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
+        android:gravity="center"
         android:text="Tap here"
         android:visibility="gone"
+        android:background="@drawable/button"
+        android:textSize="24sp"
         app:layout_constraintBottom_toBottomOf="parent"
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintHorizontal_bias="0.498"
         app:layout_constraintStart_toStartOf="parent"
-        app:layout_constraintTop_toBottomOf="@+id/tvAddress"
-        app:layout_constraintVertical_bias="0.203" />
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.364" />
 
     <TextView
         android:id="@+id/tvNoPlaylist"
@@ -40,10 +43,9 @@
         android:textColor="@color/colorWhite"
         app:layout_constraintBottom_toBottomOf="parent"
         app:layout_constraintEnd_toEndOf="parent"
-        app:layout_constraintHorizontal_bias="0.498"
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toBottomOf="@+id/tvAddress"
-        app:layout_constraintVertical_bias="0.203" />
+        app:layout_constraintVertical_bias="0.279" />
 
     <Button
         android:id="@+id/btnAddFavorites"

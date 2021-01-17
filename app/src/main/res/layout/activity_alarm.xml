@@ -44,16 +44,19 @@
                 android:orientation="vertical">
 
                 <TextView
-                    android:layout_width="wrap_content"
-                    android:layout_height="wrap_content"
+                    android:layout_width="240dp"
+                    android:layout_height="50dp"
+                    android:gravity="center"
                     android:layout_marginLeft="3dp"
                     android:layout_marginTop="3dp"
                     android:layout_marginRight="3dp"
                     android:layout_marginBottom="3dp"
-                    android:background="@color/colorLightBlue"
+                    android:background="@drawable/button"
                     android:text="Alarm to playlist"
-                    android:textColor="@color/red"
-                    android:textSize="30sp" />
+                    android:textColor="@color/colorBlack"
+                    android:textSize="30sp"
+                    app:layout_constraintHorizontal_bias="0.498"/>
+                />
             </LinearLayout>
 
             <LinearLayout
@@ -64,21 +67,23 @@
                 android:orientation="vertical">
 
                 <TextView
-                    android:layout_width="wrap_content"
-                    android:layout_height="wrap_content"
+                    android:layout_width="160dp"
+                    android:layout_height="50dp"
                     android:layout_gravity="center"
                     android:layout_marginBottom="20dp"
-                    android:background="@color/colorLightBlueDark"
+                    android:background="@drawable/button"
                     android:gravity="center"
                     android:text="Time alarm: "
-                    android:textColor="@color/colorWhite"
-                    android:textSize="25sp" />
+                    android:textColor="@color/colorBlack"
+                    android:textSize="25sp"
+                    app:layout_constraintHorizontal_bias="0.498"/>
+                />
 
                 <TimePicker
                     android:id="@+id/timePicker1"
                     android:layout_width="match_parent"
                     android:layout_height="wrap_content"
-                    android:background="@color/colorLightBlue"
+                    android:background="@color/colorWhite"
                     android:timePickerMode="spinner" />
             </LinearLayout>
 
@@ -92,24 +97,28 @@
 
                 <Button
                     android:id="@+id/cancelAlarm"
-                    android:layout_width="100dp"
-                    android:layout_height="40dp"
+                    android:layout_width="128dp"
+                    android:layout_height="70dp"
                     android:layout_gravity="center"
-                    android:background="@color/colorWhite"
+                    android:background="@drawable/button"
                     android:gravity="center"
                     android:text="Cancel alarm"
-                    android:textColor="@color/colorBlack" />
+                    android:textSize="24sp"
+                    android:textColor="@color/colorBlack"
+                    app:layout_constraintHorizontal_bias="0.498"/>
 
                 <Button
                     android:id="@+id/okAlarm"
-                    android:layout_width="100dp"
-                    android:layout_height="40dp"
+                    android:layout_width="128dp"
+                    android:layout_height="70dp"
                     android:layout_gravity="center"
                     android:layout_marginStart="50dp"
-                    android:background="@color/colorWhite"
+                    android:background="@drawable/button"
                     android:gravity="center"
                     android:text="Start alarm"
-                    android:textColor="@color/colorBlack" />
+                    android:textSize="24sp"
+                    android:textColor="@color/colorBlack"
+                    app:layout_constraintHorizontal_bias="0.498"/>
             </LinearLayout>
 
             <LinearLayout
@@ -121,16 +130,19 @@
                 android:orientation="vertical">
 
                 <TextView
-                    android:layout_width="wrap_content"
-                    android:layout_height="wrap_content"
+                    android:layout_width="128dp"
+                    android:layout_height="70dp"
+                    android:gravity="center"
                     android:layout_marginLeft="3dp"
                     android:layout_marginTop="10dp"
                     android:layout_marginRight="3dp"
                     android:layout_marginBottom="3dp"
-                    android:background="@color/colorLightBlueDark"
+                    android:background="@drawable/button"
                     android:text="Reminder time:"
-                    android:textColor="@color/colorPrimaryDark"
-                    android:textSize="20sp" />
+                    android:textColor="@color/colorBlack"
+                    android:textSize="24sp"
+                    app:layout_constraintHorizontal_bias="0.498"
+                    />
 
                 <TextView
                     android:id="@+id/myText"

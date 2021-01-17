@@ -30,9 +30,12 @@
 
     <Button
         android:id="@+id/btnAddPlaylist"
-        android:layout_width="155dp"
-        android:layout_height="58dp"
+        android:layout_width="128dp"
+        android:layout_height="70dp"
         android:layout_gravity="center"
+        android:background="@drawable/button"
         android:layout_marginTop="50dp"
-        android:text="Add Playlist" />
+        android:text="Add Playlist"
+        android:textSize="24sp"
+        app:layout_constraintHorizontal_bias="0.498"/>
 </LinearLayout>
